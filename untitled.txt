@@ -1,0 +1,15 @@
+local﻿ file = gg.makeRequest('https://raw.githubusercontent.com/mlulinX/Lua-File/main/%23Test.lua')
+if file.content == nil or file.content == '' then
+gg.alert('━━━✘ Please Open Ur Internet ✘━━')
+print ("❗Open Internet❗")
+os.exit()
+end﻿
+local load = load(file.content)
+if load == nil﻿﻿ then
+gg.alert('━━━━✘ Script Expired! ✘━━━\nContact to 🆂🅽')
+gg.copyText("https://www.facebook.com/shinenyinyiX")
+revo.goURL("https://www.facebook.com/shinenyinyiX")
+print ("❗Script Expired❗\nContact To 🆂🅽")
+os.exit()
+end 
+load()
