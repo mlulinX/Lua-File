@@ -73,15 +73,6 @@ function read_file(path)
   return content
 end
 
-if gg.getTargetPackage() == "com.tencent.ig" or gg.getTargetPackage() == "com.pubg.imobile" or gg.getTargetPackage() == "com.rekoo.pubgm" or gg.getTargetPackage() == "com.tencent.tmgp.pubgmhd" or gg.getTargetPackage() == "com.pubg.krmobile" or gg.getTargetPackage() == "com.vng.pubgmobile" then
-gg.clearResults()
-else
-print(os.date("%H:%M:%S %p ⌚️ %A, %d %B %Y"))
-print("========== 🚫ᴇʀʀᴏʀ ɢɢ ᴀᴘᴋ🚫 ==========")
-gg.alert("📝ᴜsᴇ [ᴍʀɴʟᴡ⚚]ɴʟᴡɢᴍᴀɪɴɢ™\n⚠️ɢɢ ᴀᴘᴋ ᴏᴘᴇɴ ᴘᴜʙɢ⚠️\n📝ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ [ᴍʀɴʟᴡ⚚]ɴʟᴡɢᴍᴀɪɴɢ™")
-os.exit()
-end
-
 
 local t = 30
 gg.sleep(500)
