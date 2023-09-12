@@ -17,11 +17,9 @@ none='\e[0m'
 
 sed -i 's/#\?AllowTcpForwarding .*/AllowTcpForwarding yes/' /etc/ssh/sshd_config && sed -i 's/#\?PasswordAuthentication .*/PasswordAuthentication yes/' /etc/ssh/sshd_config && sed -i 's/#\?Banner .*/Banner \/etc\/ssh\/sngcp/' /etc/ssh/sshd_config && /etc/init.d/ssh restart;
 echo "
-<h4><font color='cyan'>Telegram >> https://t.me/mlulinX
-</font></h4>
-
-
-</font></h3>" | tee /etc/ssh/sngcp >/dev/null
+<h4><font color='green'>Telegram >> https://t.me/mlulinX
+"
+| tee /etc/ssh/sngcp >/dev/null
 useradd "snxsn" --shell=/bin/false -M
 echo "snxsn:snxsn" | chpasswd
 
